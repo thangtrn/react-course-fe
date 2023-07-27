@@ -1,6 +1,6 @@
-import { Course } from '../pages';
+import { Course, Home } from '../pages';
 const router = [
-   { element: <Course />, path: '/' },
+   { element: <Home />, path: '/' },
    { element: <Course />, path: '/about' },
    { element: <Course />, path: '/course-stem' },
    { element: <Course />, path: '/course' },

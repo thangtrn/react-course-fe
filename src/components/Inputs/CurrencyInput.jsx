@@ -6,9 +6,9 @@ const defaultMaskOptions = {
    prefix: '',
    suffix: ' VND',
    includeThousandsSeparator: true,
-   thousandsSeparatorSymbol: ',',
+   thousandsSeparatorSymbol: '.',
    allowDecimal: true,
-   decimalSymbol: '.',
+   decimalSymbol: ',',
    allowNegative: false,
    allowLeadingZeroes: false,
 };

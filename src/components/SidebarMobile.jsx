@@ -11,10 +11,11 @@ const SidebarMobile = ({ isShow, onToggleSidebar }) => {
          className={`sidebar-mobile d-block d-md-none ${
             isShow && 'sidebar-mobile-active'
          }`}
+         style={{ overflow: 'hidden' }}
       >
          <div
             className="sidebar-content"
-            style={{ overflow: 'scroll' }}
+            style={{ overflow: 'auto' }}
             onClick={(e) => e.stopPropagation()}
          >
             <div className="sidebar-top">

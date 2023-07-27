@@ -250,7 +250,14 @@ const Course = () => {
 
                   <div className="row" style={{ margin: '0 -8px' }}>
                      {letFilter.map((item, index) => (
-                        <CourseCard key={index} courseData={item} />
+                        <div
+                           className="col-12 col-md-6 col-lg-4 px-2"
+                           style={{ marginBottom: '16px' }}
+                        >
+                           <div style={{ height: '100%' }}>
+                              <CourseCard key={index} courseData={item} />
+                           </div>
+                        </div>
                      ))}
                   </div>
 
